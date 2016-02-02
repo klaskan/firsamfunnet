@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>friSamf</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href=<%= "/" %>>
+                        FriSamf
+                    </a>
+                </li>
+                <li>
+                    <a href=<%= "kap2" %>>Kap 2</a>
+                </li>
+                <li>
+                    <a href=<%= "kap3" %>>Kap 3</a>
+                </li>
+                <li>
+                    <a href=<%= "kap4" %>>kap 4</a>
+                </li>
+                <li>
+                    <a href=<%= "kap5" %>>Kap 5</a>
+                </li>
+                <li>
+                    <a href=<%= "kap6" %>>Kap 6</a>
+                </li>
+                <li>
+                    <a href=<%= "kap7" %>>Kap 7</a>
+                </li>
+                <li>
+                    <a href=<%= "kap8" %>>Kap 8</a>
+                </li>
+                <li>
+                    <a href=<%= "kap9" %>>Kap 9</a>
+                </li>
+                <li>
+                    <a href=<%= "kap10" %>>Kap 10</a>
+                </li>
+                <li>
+                    <a href=<%= "kap11" %>>Kap 11</a>
+                </li>
+                <li>
+                    <a href=<%= "kap12" %>>Kap 12</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Kap 2</h1>
+                        <h3>Forbrukere og etterspørsel</h3>
+                        <p></p>
+Hva er det som påvirker forbrukeres etterspørsel? En åpenbar faktor er pris. Jo høyere en pris er jo lavere blir etterspørselen. Dette kan vi vise grafisk ved å tegne opp en etterspørselskurve. Etterspørselskurven går nedover, og synker gradvis mot høyre. På den horisontale aksen finner vi etterspurt mengde. Vertikalt finner vi prisen. Dermed ser vi at jo høyere pris vi setter jo mindre blir etterspørselen. 
+<p></p>
+Men det finnes også andre faktorer som påvirker etterspørselen etter en bestemt vare eller tjeneste. Man kan for eksempel se for seg at forbrukeren får høyere eller lavere inntekt, og dette vil påvirke etterspørselen. Det som skjer når en forbruker tjener mer penger er at der skjer et skift i etterspørselskurven. Når forbrukeren tjener mer skifter/hopper kurven til høyre. Og da ser vi at forbrukeren etterspør mer av denne normal goden til den samme prisen. 
+<p></p>
+Et skift i etterspørselskurven blir ofte referert til som enten en økning eller fall i etterspørsel. Men det er ikke bare en forandring i inntekten til forbrukeren som gjør at vi kan får et skift. Substitutter, preferanser er andre ting som kan føre til et skift i etterspørselskurven. 
+<p></p>
+<b>Firmaer og forsyninger</b>
+<p></p>
+Den andre økonomiske aktøren i markedet er bedriftene. Forbrukerne er aktør #1. Jo høyre utsalgsprisen er for bedriften jo større grunn er det for bedriften å fortsette og produsere varen. Bedrifter er som oftest kun opptatt av å maksimere profitten sin. Dette gjør de ved å produsere så mange fortjenestes rike produkter som mulig. Jo høyere prisen blir på en vare jo mer ønsker bedriften å produsere av det. Dette kan blir illustrert grafisk med en tilbudskurve. Forandring i pris fører til bevegelser langs tilbudskurven. 
+Innstatskostander og teknologi er de to tingene som fører til et skift i tilbudskurven.
+<p></p>
+<b>Markedet: Vi setter sammen tilbud og etterspørsel</b>
+<br></br>
+<%= image_tag("abcd.gif")%> 
+
+</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
