@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/page12'
+
   get 'pages/kap1'
 
   get 'pages/kap2'
